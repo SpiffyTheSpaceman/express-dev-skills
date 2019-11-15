@@ -11,5 +11,9 @@
     <h1>Skill Number <%= skillNum %></h1>
     <h2><%= skill.skill %></h2>
     <h3>Proficiency: <%= skill.proficiency %></h3>
+    <form action="/skills/<%= skillNum - 1 %>?_method=DELETE"
+        class="delete-skill" method="POST">
+        <button type="submit">Delete Skill</button>
+    </form>
 </body>
 </html>
