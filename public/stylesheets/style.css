@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.delete-skill > button {
+  color: red;
+  outline: none;
+
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 15px 0 15px 0;
+  padding: 0;
+}
+
+li > form {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
